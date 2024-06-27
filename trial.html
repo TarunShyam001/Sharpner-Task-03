@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="margin: 0">
+  <div style="text-align: center;">
+    <h1> NoteBook </h1>
+    <label for="sfilter">Search Notes : </label>
+    <input type="text" name="search" id="filter"/>
+  </div>
+  <br>
+  <div style="text-align: center;">
+    <p id="total"></p>
+    <p id="showing"></p>
+  </div>
+  <br>
+  <br>
+  <form onsubmit="handleFormSubmit(event)">
+    <label for="title"> Notes Title : </label>
+    <input type="text" name="title" id="title" />
+    <br>
+    <label for="description"> Note's Description : </label>
+    <br>
+    <textarea type="email" name="description" id="description" style="width: 300px; height: 100px;"></textarea>
+    <br><br>
+    <button type="submit"> Add to books </button>
+  </form>
+  <ul id="listOfBooks"></ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="trial.js"></script>
+
+</html>
