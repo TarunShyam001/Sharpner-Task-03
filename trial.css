@@ -1,0 +1,116 @@
+label{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 10px;
+}
+
+button{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+  h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0;
+    padding: 10px;
+  }
+
+  h3{
+    color: rgb(255, 0, 247);
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0;
+  }
+  
+  form {
+    margin: 30px;
+    width: 100%;
+  }
+
+  #filter {
+    height: 25px;
+    width: 12%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .desc{
+    color: blue;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+  form input {
+    height: 25px;
+    width: 12%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  textarea{
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  form button {
+    height: 35px;
+    width: 10%;
+    border: 2px solid rgb(2, 77, 77);
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 155px;
+    background-color:aqua;
+  }
+
+
+ul {
+    list-style-type: none;
+    background-color: pink;
+    padding: 5px;
+    margin: 0 30px;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .delete-btn {
+    align-self: flex-end;
+    background-color: pink;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 18px;
+  }
+
+  #total{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+  #showing{
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+  }
